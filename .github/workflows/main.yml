@@ -1,7 +1,7 @@
 name: sixhouruu
 on:
   schedule:
-    - cron: '23 */8 * * *'
+    - cron: '52 2,10,18 * * *'
 jobs:
   build:
     runs-on: windows-latest
